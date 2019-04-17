@@ -12,6 +12,14 @@ git commit -m "added new feature"
 git push
 
 =======================================================
+==================== GITHUB NOTES =====================
+=======================================================
+
+If changing files directly on github it is necessary to
+clone the project to a new folder. Maybe it will also work 
+to clone to an existing folder and overwrite?
+
+=======================================================
 =================== KLEOPATRA =========================
 =======================================================
 
@@ -23,6 +31,4 @@ pass phrase: key_shambhu
 =======================================================
 
 D:\my-code\tools\public-private-key-backup\
-
-Now testing
 
