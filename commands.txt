@@ -32,3 +32,10 @@ pass phrase: key_shambhu
 
 D:\my-code\tools\public-private-key-backup\
 
+=======================================================
+================ INSTALLED DEV TOOLS ==================
+=======================================================
+
+Installed extension EditorConfig in VS Code so that code
+style can be defined in an enditorconfig file
+
