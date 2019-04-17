@@ -12,4 +12,9 @@ git commit -m "added new feature"
 git push
 
 =======================================================
+=================== KLEOPATRA =========================
 =======================================================
+
+Used to generate public and private decryption key
+pass phrase: key_shambhu
+
