@@ -16,7 +16,7 @@ git push
 =======================================================
 
 If changing files directly on github it is necessary to
-clone the project to a new folder. Maybe it will also work 
+clone the project to a new folder or it might also work 
 to clone to an existing folder and overwrite?
 
 =======================================================
