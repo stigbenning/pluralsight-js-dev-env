@@ -59,9 +59,9 @@ To get a useful url returned on win 10 use this command:
 
     lt localhost --port 3000 *
 
-(it could be any available port, 3000 is just an example).
-
-* the port number specified in app.listen in srcServer.js 
+* it could be any available port, 3000 is just an example 
+  but it must be the port number specified in app.listen 
+  in the srcServer.js file.
 
 localtunnel will then return an url, something like 
 
@@ -79,7 +79,8 @@ work as it progresses on the provided url.
 The content on localtunnel.url reflects the content on localhost:portnumber
 
 If the developer fails to keep the port on the development
-machine alive the localtunnel url fails with a 404.
+machine alive the localtunnel url fails with a 404. Then the 
+process must be repeated and a new localtunnel url generated.
 
 Other localtunnel commands:
 
