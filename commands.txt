@@ -50,7 +50,7 @@ in the browser.
 =================== LOCALTUNNEL =======================
 =======================================================
 
-LOCALTUNNEL is for sharing your work via a public  url 
+LOCALTUNNEL is for sharing your work via a public url 
 and it is installed via npm using
     npm install localtunnel -g
 to install it globally.
@@ -65,18 +65,19 @@ To get a useful url returned on win 10 use this command:
 localtunnel will then return an url to you, something
 like https://simply-vampirebat-74.localtunnel.me which
 you can send to interested parties who can then follow
-your work by pasting the url into their preferred browser.
+your work.
+
 The localtunnel url is updated whenever your pages change 
 and need refreshing. 
 
-The developer just have to keep the local development server 
+The developer has to keep the local development server 
 on the specified port alive. Otherwise localtunnel fails, it
 only serves the content on the specified port.
 
-localtunnel.url = localhost:portnumber = srcServer.js port
+content on localtunnel.url = content on localhost:portnumber
 
-adding subdomain (--subdomain name) returns a 404
-on the returned localtunnel url.
+adding subdomain (--subdomain name) to the lt command 
+returns a 404 on the returned localtunnel url.
 
     lt --version
 
