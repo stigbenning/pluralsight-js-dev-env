@@ -39,3 +39,18 @@ D:\my-code\tools\public-private-key-backup\
 Installed extension EditorConfig in VS Code so that code
 style can be defined in an enditorconfig file
 
+=======================================================
+=================== COMMAND LINE ======================
+=======================================================
+
+run: "node buildScripts/srcServer.js" to open index.html
+in the browser.
+
+=======================================================
+=================== LOCALTUNNEL =======================
+=======================================================
+
+LOCALTUNNEL is for sharing your work via an url is 
+installed via vpn using "npm install localtunnel -g" 
+to install it globally (already installed)
+
