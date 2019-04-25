@@ -50,7 +50,44 @@ in the browser.
 =================== LOCALTUNNEL =======================
 =======================================================
 
-LOCALTUNNEL is for sharing your work via an url is 
-installed via vpn using "npm install localtunnel -g" 
-to install it globally (already installed)
+LOCALTUNNEL is for sharing your work via a public  url 
+and it is installed via npm using
+    npm install localtunnel -g
+to install it globally.
+
+To get a useful url returned on win 10 use this command:
+    lt localhost --port "your specified port number" *
+        for example lt localhost --port 3000
+
+* same port number as specified in app.listen in 
+  srcServer.js 
+
+localtunnel will then return an url to you, something
+like https://simply-vampirebat-74.localtunnel.me which
+you can send to interested parties who can then follow
+your work by pasting the url into their preferred browser.
+The localtunnel url is updated whenever your pages change 
+and need refreshing. 
+
+The developer just have to keep the local development server 
+on the specified port alive. Otherwise localtunnel fails, it
+only serves the content on the specified port.
+
+localtunnel.url = localhost:portnumber = srcServer.js port
+
+adding subdomain (--subdomain name) returns a 404
+on the returned localtunnel url.
+
+    lt --version
+
+will return the version number. In April 2019
+the version number is 1.9.1
+
+
+
+=======================================================
+=================== ??????????? =======================
+=======================================================
+
+
 
